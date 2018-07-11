@@ -50,6 +50,7 @@
 #include "command_classes/EnergyProduction.h"
 #include "command_classes/Hail.h"
 #include "command_classes/Indicator.h"
+#include "command_classes/Irrigation.h"
 #include "command_classes/Language.h"
 #include "command_classes/Lock.h"
 #include "command_classes/ManufacturerProprietary.h"

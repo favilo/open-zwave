@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Product xmlns="http://code.google.com/p/open-zwave/">
+  <CommandClass id="107" name="COMMAND_CLASS_IRRIGATION" version="1" request_flags="4" create_vars="true" base="0">
+    <Instance index="1" />
+    <Value type="decimal" genre="user" instance="1" index="1" label="Heating 1" read_only="false" write_only="false" />
+    <Value type="decimal" genre="user" instance="1" index="2" label="Cooling 1" read_only="false" write_only="false" />
+  </CommandClass>
+  <CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION">
+    <Value type="byte" index="2" genre="config" label="Master Valve Delay" units="seconds" min="0" max="255" value="5" size="2">
+      <Help>
+        Delay in seconds of Master Valve
+      </Help>
+    </Value>
+
+  </CommandClass>
+</Product>
