@@ -207,6 +207,7 @@ namespace OpenZWave
 				cc.Register(EnergyProduction::StaticGetCommandClassId(), EnergyProduction::StaticGetCommandClassName(), EnergyProduction::Create);
 				cc.Register(Hail::StaticGetCommandClassId(), Hail::StaticGetCommandClassName(), Hail::Create);
 				cc.Register(Indicator::StaticGetCommandClassId(), Indicator::StaticGetCommandClassName(), Indicator::Create);
+				cc.Register(Irrigation::StaticGetCommandClassId(), Irrigation::StaticGetCommandClassName(), Irrigation::Create);
 				cc.Register(Language::StaticGetCommandClassId(), Language::StaticGetCommandClassName(), Language::Create);
 				cc.Register(Lock::StaticGetCommandClassId(), Lock::StaticGetCommandClassName(), Lock::Create);
 				cc.Register(ManufacturerProprietary::StaticGetCommandClassId(), ManufacturerProprietary::StaticGetCommandClassName(), ManufacturerProprietary::Create);

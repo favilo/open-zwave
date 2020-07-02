@@ -393,6 +393,7 @@
   <Manufacturer id="0328" name="Cvnet"></Manufacturer>
   <Manufacturer id="0014" name="Cyberhouse (GoControl)">
     <Product config="gocontrol/GC-TBZ48L.xml" id="5436" name="GC-TBZ48L Battery Powered Z-Wave Plus Thermostat" type="5442"/>
+    <Product config="gocontrol/WI15VZ-1.xml" id="3135" name="WI15VZ-1 Smart Irrigation Controller" type="5749" /> 
   </Manufacturer>
   <Manufacturer id="0067" name="CyberTAN Technology, Inc."></Manufacturer>
   <Manufacturer id="0030" name="Cytech Technology Pre Ltd.">
